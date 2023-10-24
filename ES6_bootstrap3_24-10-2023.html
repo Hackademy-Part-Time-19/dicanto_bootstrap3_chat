@@ -16,28 +16,131 @@
 </head>
 
 <body>
-    <div
-        style="width: 100%; height: 80vh; display: flex; align-items: center; justify-content: center; background-color: #F4F2F0;">
 
-        <div class="container-chat">
-            <div class="chat-split" style=" padding-left: 20px; border-top-left-radius: 18px; ">
-                <h1 style="font-size: 20px;">Messaging</h1>
-                <div style="background-color: aquamarine; width: 100%;">
-                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
-                        src="https://xsgames.co/randomusers/assets/avatars/male/75.jpg" alt="picture profilo chat">
+    <div
+        style="width:80%; height: 700px; display: flex; align-items: center; justify-content: center; background-color: #5897e3; position: fixed; bottom: 0px; margin: 30px;">
+        <div class="container-box1">
+
+            <div class="container-messagges">
+
+                <div id="chat-container" style="flex:1; border-top-left-radius: 18px;">
+
+                    <div id="messages-preview" style="height: 60px;">
+
+                        <div
+                            style="display: flex; align-items: center; border-block-end: 1px solid rgb(214, 215, 215);box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+                        border: 1px solid rgba(255,255,255,0.2); display: flex;align-items: center;padding-left: 15px;">
+
+                            <h1 style="font-size: 20px;">Chats</h1>
+                        </div>
+                        <div
+                            style="display: flex; flex-direction: column; background-color: rgb(12, 185, 198); width: 100%; height: 100%; margin-top: 20px;">
+                            
+                            <!-- Utenti -->
+                            <div id="utente" class="utente">
+                                <div class="picture-chat">
+                                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
+                                        src="https://xsgames.co/randomusers/assets/avatars/male/75.jpg"
+                                        alt="picture profilo chat">
+                                </div>
+                                <div class="preview-message">
+                                    <h5
+                                        style="margin-left: 15px;font-weight: 700;font-size: 14px;margin-top: 5px; flex:1;">
+                                        John Doe</h5>
+                                    <p style="margin-left: 15px;font-weight: 700;font-size: 8px;margin-top: 5px;">You:
+                                        Seems that you're using an automation...</p>
+                                </div>
+                            </div>
+
+                            <div id="utente" class="utente">
+                                <div class="picture-chat">
+                                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
+                                        src="https://xsgames.co/randomusers/assets/avatars/female/35.jpg"
+                                        alt="picture profilo chat">
+                                </div>
+                                <div class="preview-message">
+                                    <h5
+                                        style="margin-left: 15px;font-weight: 700;font-size: 14px;margin-top: 5px; flex:1;">
+                                        Cathie Krabbe</h5>
+                                    <p style="margin-left: 15px;font-weight: 700;font-size: 8px;margin-top: 5px;">You:
+                                        You: are you ok?....</p>
+                                </div>
+                            </div>
+
+
+                            <div id="utente" class="utente">
+                                <div class="picture-chat">
+                                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
+                                        src="https://xsgames.co/randomusers/assets/avatars/female/37.jpg"
+                                        alt="picture profilo chat">
+                                </div>
+                                <div class="preview-message">
+                                    <h5
+                                        style="margin-left: 15px;font-weight: 700;font-size: 14px;margin-top: 5px; flex:1;">
+                                        Crissy Koutras</h5>
+                                    <p style="margin-left: 15px;font-weight: 700;font-size: 8px;margin-top: 5px;">You:
+                                        Seems that you're using an automation...</p>
+                                </div>
+                            </div>
+
+
+                            <div id="utente" class="utente">
+                                <div class="picture-chat">
+                                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
+                                        src="https://xsgames.co/randomusers/assets/avatars/male/71.jpg"
+                                        alt="picture profilo chat">
+                                </div>
+                                <div class="preview-message">
+                                    <h5
+                                        style="margin-left: 15px;font-weight: 700;font-size: 14px;margin-top: 5px; flex:1;">
+                                        Nathan Oberick</h5>
+                                    <p style="margin-left: 15px;font-weight: 700;font-size: 8px;margin-top: 5px;">You:
+                                        Seems that you're using an automation...</p>
+                                </div>
+                            </div>
+
+
+                            <div id="utente" class="utente">
+                                <div class="picture-chat">
+                                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
+                                        src="https://xsgames.co/randomusers/assets/avatars/female/41.jpg"
+                                        alt="picture profilo chat">
+                                </div>
+                                <div class="preview-message">
+                                    <h5
+                                        style="margin-left: 15px;font-weight: 700;font-size: 14px;margin-top: 5px; flex:1;">
+                                        Alysua Mujica</h5>
+                                    <p style="margin-left: 15px;font-weight: 700;font-size: 8px;margin-top: 5px;">You:
+                                        Seems that you're using an automation...</p>
+                                </div>
+                            </div>
+
+
+                            <div id="utente" class="utente">
+                                <div class="picture-chat">
+                                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
+                                        src="https://xsgames.co/randomusers/assets/avatars/female/42.jpg"
+                                        alt="picture profilo chat">
+                                </div>
+                                <div class="preview-message">
+                                    <h5
+                                        style="margin-left: 15px;font-weight: 700;font-size: 14px;margin-top: 5px; flex:1;">
+                                        Jelfrida Marecek</h5>
+                                    <p style="margin-left: 15px;font-weight: 700;font-size: 8px;margin-top: 5px;">You:
+                                        Seems that you're using an automation...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
-                <div style="background-color: orange;">
-                    <img style="border-radius: 100%; height: 60px; padding: 5px;"
-                        src="https://xsgames.co/randomusers/assets/avatars/male/75.jpg" alt="picture profilo chat">
+                <div class="container-conversation" style=" flex:3; border-top-right-radius: 18px; padding: none;">
+                    <h1 style="font-size: 20px;">Conversation</h1>
                 </div>
-            </div>
-            <div class="chat-split" style="border-top-right-radius: 18px;">
-                <h1 style="font-size: 20px;">Conversation</h1>
             </div>
         </div>
-
-        <div
-            style="background-color: yellowgreen; width: 800px; height: 600px; border-radius: 18px; flex: 1; margin-right: 30px; margin-right: 30px;">
+        <div class="container-box2">
 
         </div>
     </div>
