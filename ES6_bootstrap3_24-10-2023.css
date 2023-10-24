@@ -1,0 +1,20 @@
+.container-chat{
+    background-color: red; 
+    width: 800px; 
+    height: 600px; 
+    border-radius: 18px; 
+    flex: 2; 
+    margin-left: 30px; 
+    margin-right: 30px; 
+    display: flex;
+}
+
+.chat-split {
+    background-color: #ffffff; 
+    opacity: 90%; 
+    width: 50%; 
+    height: 30px; 
+
+    border-block-end: 2px solid rgb(214, 215, 215);
+    align-items: center;
+}
