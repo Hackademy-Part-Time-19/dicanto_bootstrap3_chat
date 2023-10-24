@@ -60,7 +60,15 @@ p {
     margin-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+
+.utente:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #476792;
+}
+
 
 .picture-chat{ 
     width: 100%; 
@@ -75,4 +83,14 @@ p {
     flex-direction: column;
     padding: 0px;
    
+}
+
+.containerTextMessage {
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.containerTextMessage:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
