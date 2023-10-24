@@ -71,6 +71,9 @@ p {
     border-block-end: 1px solid rgb(214, 215, 215);
     
     overflow-y: scroll;
+    flex:3; 
+    border-top-right-radius: 18px; 
+    padding: none;
 }
 
 .utente{ 
