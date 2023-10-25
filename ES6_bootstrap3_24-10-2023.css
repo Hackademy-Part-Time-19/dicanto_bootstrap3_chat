@@ -34,50 +34,51 @@ p {
 }
 
 .container-box1{
-    background-color: blueviolet;  
     border-top-left-radius: 18px; 
     border-bottom-left-radius: 18px;
     flex: 3;
     width: 70%;
-    height: 100%;
+    height: 80vh;
 }
 
 .container-box2{
-    background-color: yellowgreen; 
+    background-color: #F2F5F9 ; 
     width: 30%; 
-    height: 100%; 
+    height: 80vh; 
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px; 
     flex: 1;
 }
 .container-messagges{
     display: flex;
-    height: 100%;
-    width: 100%; 
-    background-color: #F8FEFF;
-    border-radius: 18px; 
+    height: 80vh; 
+    background-color: #F2F5F9;
+    border-top-left-radius: 18px; 
+    border-bottom-left-radius: 18px;
     flex:1;
+    border: #555 solid;
 }
 
 
 .container-conversation {
     display: flex;
+    flex-direction: column;
     height: 70%; 
     background-color: #ffffff; 
     color: rgb(64, 62, 62);
     opacity: 90%; 
+   
     
     padding-left: 20px;
     border-block-end: 1px solid rgb(214, 215, 215);
     
     overflow-y: scroll;
-    flex:3; 
+
     border-top-right-radius: 18px; 
     padding: none;
 }
 
 .utente{ 
-    width: 100%; 
     flex:1; 
     display: flex;
     border-radius: 10px;
@@ -86,6 +87,8 @@ p {
     margin-bottom: 5px;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 5px;
+    
     cursor: pointer;
     transition: 0.3s;
 }
