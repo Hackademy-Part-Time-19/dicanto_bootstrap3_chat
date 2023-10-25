@@ -35,7 +35,7 @@
                         <div id="container-1"
                             style="border-block-end: 2px solid rgb(214, 215, 215);box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
                         border: 1px solid rgba(255,255,255,0.2); display: flex;align-items: center;padding-left: 15px;">
-                            
+
                             <div style="display: block;">
                                 <div style="margin-top: 10px;">
                                     <h1 style="font-size: 30px; font-weight: 900;">Chats</h1>
@@ -46,8 +46,9 @@
                             </div>
                         </div>
 
-                        <!-- Utenti -->
-                        <div id="container-2" style="margin-top: 5px; padding-right: 15px; position: relative;">
+                        <!-- utenti -->
+                        <div id="container-2"
+                            style="margin-top: 5px; padding-right: 15px; position: relative; border: coral solid;">
 
                             <div id="utente" class="utente">
                                 <div class="picture-chat">
@@ -142,63 +143,106 @@
                                         Seems that you're using an automation...</p>
                                 </div>
                             </div>
-                    </div>
-                    </div>
-
-
-                </div>
-
-                <div id="conversion-container" style="flex: 2.5; height: 80vh;">
-                    <div class="container-conversation">
-
-                        <div style="margin-top: 10px; width: 100%; display: flex; align-items: flex-start;">
-
-                            <div
-                                style="flex: 1; width: 100%; box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;">
-                                <h1 style="font-size: 20px; padding-bottom: 5px;">Conversation</h1>
-                            </div>
-
                         </div>
                     </div>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here"
-                            id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Comments</label>
+                </div>
+
+                <!-- conversation -->
+
+                <div id="conversion-parent" style="flex: 2.5; height: 80vh;border: burlywood solid;">
+
+                    <div id="conversion-child" class="container-conversation">
+                        <div
+                            style="margin-top: 10px;box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;">
+
+                            <div>
+                                <h1 style="font-size: 20px;">Conversation</h1>
+                            </div>
+                        </div>
+
+                        <div style="height: 80vh; overflow-y: scroll;">
+                            <!-- message conversation -->
+                            <div class="incoming-messages">
+                                <h5 style="font-weight: 600;font-size: 13px;margin-top: 1px;">Peter Griffin <span
+                                        style="font-size: 11px;font-weight: 200;color: rgba(137, 153, 158, 0.7);">&#8226;&nbsp;1
+                                        min ago</span>
+                                </h5>
+
+                                <p style="font-size: 13px;position: relative;">The simplest way to add a space in HTML
+                                    (besides hitting the spacebar) is with the non-breaking space entity, written as
+                                    &nbsp;
+                                    or &#160;.</p>
+                            </div>
+
+                            <div id="grad">
+                                <p style="font-size: 13px;position: relative;">The simplest way to add a space in HTML
+                                    (besides hitting the spacebar) is with the non-breaking space entity, written as
+                                    &nbsp;
+                                    or &#160;.</p>
+                            </div>
+
+                            <div class="incoming-messages">
+                                <h5 style="font-weight: 600;font-size: 13px;margin-top: 1px;">Peter Griffin <span
+                                        style="font-size: 11px;font-weight: 200;color: rgba(137, 153, 158, 0.7);">&#8226;&nbsp;1
+                                        min ago</span>
+                                </h5>
+
+                                <p style="font-size: 13px;position: relative;">The simplest way to add a space in HTML
+                                    (besides hitting the spacebar) is with the non-breaking space entity, written as
+                                    &nbsp;
+                                    or &#160;.</p>
+                            </div>
+
+                            <div id="grad">
+                                <p style="font-size: 13px;position: relative;">The simplest way to add a space in HTML
+                                    (besides hitting the spacebar) is with the non-breaking space entity, written as
+                                    &nbsp;
+                                    or &#160;.</p>
+                            </div>
+                            <!-- end message conversation -->
+                        </div>
+
+
+                        <div id="conversion-child" class="form-floating" style="border: blueviolet solid; margin: 5px;">
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Type a message here...</label>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- notification -->
+            <div id=" child-2-lato-dx" class="container-box2">
+
+                <div>
+                    <div style="margin-top: 10px; padding-left: 15px;">
+                        <h1 style="font-size: 30px; font-weight: 900;">
+                            Notification
+                        </h1>
+                    </div>
+                    <div class="containerTextMessage">
+                        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt=""
+                            style="width:40px;height: 40px;border-radius:100%;margin-left: 20px;margin-top: 20px;border-width: 1px solid rgba(255,255,255,0)">
+
+                        <div style="margin-left: 20px;margin-top: 20px; ">
+
+                            <h5 style="font-weight: 600;font-size: 13px;margin-top: 1px;">Peter Griffin <span
+                                    style="font-size: 11px;font-weight: 200;color: rgba(255, 255, 255, 0.7);">&#8226;&nbsp;1
+                                    min ago</span>
+                            </h5>
+
+                            <p style="font-size: 13px;position: relative;">The simplest way to add a space in HTML
+                                (besides hitting the spacebar) is with the non-breaking space entity, written as &nbsp;
+                                or &#160;.</p>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
 
-        <div id=" child-2-lato-dx" class="container-box2">
 
-            <div>
-                <div style="margin-top: 10px; padding-left: 15px;">
-                    <h1 style="font-size: 30px; font-weight: 900;">
-                        Notification
-                    </h1>
-                </div>
-                <div class="containerTextMessage">
-                    <img src="https://randomuser.me/api/portraits/men/76.jpg" alt=""
-                        style="width:40px;height: 40px;border-radius:100%;margin-left: 20px;margin-top: 20px;border-width: 1px solid rgba(255,255,255,0)">
-
-                    <div style="margin-left: 20px;margin-top: 20px; ">
-
-                        <h5 style="font-weight: 600;font-size: 13px;margin-top: 1px;">Peter Griffin <span
-                                style="font-size: 11px;font-weight: 200;color: rgba(255, 255, 255, 0.7);">&#8226;&nbsp;1
-                                min ago</span>
-                        </h5>
-
-                        <p style="font-size: 13px;position: relative;">The simplest way to add a space in HTML
-                            (besides hitting the spacebar) is with the non-breaking space entity, written as &nbsp;
-                            or &#160;.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
     </div>
 </body>
 

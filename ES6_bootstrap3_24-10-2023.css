@@ -1,5 +1,5 @@
-body{
-    background-color:#F2F5F9;
+body {
+    background-color: #F2F5F9;
 }
 
 
@@ -11,51 +11,53 @@ h5,
 p {
     font-family: 'DM Sans', sans-serif;
 }
+
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
+    width: 8px;
+}
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(181, 175, 175, 0.1);
     border-radius: 30px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #deeafa;
     border-radius: 30px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #858aae;
 }
 
-.container-box1{
-    border-top-left-radius: 18px; 
+.container-box1 {
+    border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
     flex: 3;
     width: 70%;
     height: 80vh;
 }
 
-.container-box2{
-    background-color: #F2F5F9 ; 
-    width: 30%; 
-    height: 80vh; 
+.container-box2 {
+    background-color: #F2F5F9;
+    width: 30%;
+    height: 80vh;
     border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px; 
+    border-bottom-right-radius: 18px;
     flex: 1;
 }
-.container-messagges{
+
+.container-messagges {
     display: flex;
-    height: 80vh; 
+    height: 80vh;
     background-color: #F2F5F9;
-    border-top-left-radius: 18px; 
+    border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
-    flex:1;
+    flex: 1;
     border: #555 solid;
 }
 
@@ -63,23 +65,21 @@ p {
 .container-conversation {
     display: flex;
     flex-direction: column;
-    height: 70%; 
-    background-color: #ffffff; 
+    height: 70%;
+    background-color: #ffffff;
     color: rgb(64, 62, 62);
-    opacity: 90%; 
-   
-    
+    opacity: 90%;
+
+
     padding-left: 20px;
     border-block-end: 1px solid rgb(214, 215, 215);
-    
-    overflow-y: scroll;
 
-    border-top-right-radius: 18px; 
+    border-top-right-radius: 18px;
     padding: none;
 }
 
-.utente{ 
-    flex:1; 
+.utente {
+    flex: 1;
     display: flex;
     border-radius: 10px;
     background-color: #ffffff;
@@ -88,7 +88,7 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
-    
+
     cursor: pointer;
     transition: 0.3s;
 }
@@ -99,21 +99,20 @@ p {
 }
 
 
-.picture-chat{ 
-    width: 100%; 
-    flex:0.3; 
+.picture-chat {
+    width: 100%;
+    flex: 0.3;
     display: flex;
     margin-top: 5px
 }
 
-.preview-message{
-    width: 100%; 
-    flex:1; 
+.preview-message {
+    width: 100%;
+    flex: 1;
     display: flex;
     flex-direction: column;
     padding: 0px;
     margin-top: 10px
-   
 }
 
 .containerTextMessage {
@@ -126,3 +125,30 @@ p {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+
+#grad {
+    background-image: linear-gradient(to right, #9439EF, #a9e7f1);
+    width: 50%;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 15px 5px 2px;
+    color: #F2F5F9;
+    padding: 10px 4px 4px 20px;
+    position: relative;
+    left: 45%;
+}
+
+.incoming-messages {
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: #e9f1f8;
+    align-items: start;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 15px 5px 2px;
+}
